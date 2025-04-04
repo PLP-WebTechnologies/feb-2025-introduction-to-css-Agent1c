@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    line-height: 1.5;
+}
+
+body {
+    font-size: 12pt;
+    color: aliceblue;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+/* header styling section */
+header {
+    background-color: chocolate;
+    text-align: center;
+
+
+}
+
+h1 {
+    padding: 1.5em .1em;
+    font-weight: 700;
+    text-shadow: 2px 2px 5px rgba(16, 83, 68, 0.433);
+}
+
+/* nav styling section */
+nav {
+    background-color: skyblue;
+    display: flex;
+    gap: 30px;
+    padding: 1em;
+    justify-content: space-evenly;
+}
+
+.nav-bar {
+    /* text-align: center; */
+    /* border: 2px solid yellowgreen; */
+}
+
+li,
+a {
+    text-decoration: none;
+    list-style: none;
+}
+
+a {
+    font-size: 16pt;
+}
+
+a:hover {
+    color: blueviolet;
+}
+
+p {
+    padding: 1em 3em;
+    font-size: 1.2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+main {
+    background-color: darkcyan;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+div img {
+    /* background-color: thistle; */
+    padding: 2em 3em;
+    max-width: 80%;
+    text-align: center;
+    border-radius: 75px;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    background-color: peru;
+}
+
+.footer_ {
+    text-align: center;
+    padding: 1em 2em;
+    font-size: 1.2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+@media screen and (max-width: 756px) {
+    div img {
+        /* background-color: thistle; */
+        padding: 2em 3em;
+        max-width: 40%;
+        text-align: center;
+        border-radius: 25px;
+
+    }
+}
+
+@media screen and (min-width:360px) {
+    div img {
+        /* background-color: thistle; */
+        padding: 2em 3em;
+        max-width: 100%;
+        text-align: center;
+        border-radius: 50px;
+
+    }
+
+    /* nav styling section */
+    nav {
+        background-color: skyblue;
+        display: flex;
+        gap: 20px;
+        padding: 1em;
+        justify-content: space-evenly;
+    }
+
+}
